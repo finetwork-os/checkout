@@ -1,0 +1,23 @@
+name: Test package
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: yarn
+      - run: yarn test-vanilla-library
+      - run: yarn test-react-library
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

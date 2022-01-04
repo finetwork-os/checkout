@@ -1,7 +1,12 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "jsx": "react"
+    "baseUrl": ".",
+    "emitDeclarationOnly": true,
+    "composite": true,
+    "declaration": true,
+    "outDir": "dist"
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "mocks/**/*.ts"],
+  "exclude": ["node_modules"]
 }

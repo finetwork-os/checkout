@@ -1,18 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "baseUrl": "./packages",
+    "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true
-  },
-  "include": ["**/*.ts"],
-  "exclude": ["node_modules"]
+    "isolatedModules": true,
+    "jsx": "preserve"
+  }
 }

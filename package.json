@@ -10,6 +10,8 @@
   "scripts": {
     "postinstall": "lerna bootstrap",
     "dev": "lerna exec --scope=website yarn start",
+    "test-vanilla-library": "lerna exec --scope=@finetwork/checkout yarn test",
+    "test-react-library": "lerna exec --scope=@finetwork/checkout-react yarn test",
     "build-website": "lerna exec --scope=website yarn build",
     "start-website": "lerna exec --scope=website yarn serve",
     "build-vanilla-library": "lerna exec --scope=@finetwork/checkout yarn build",
