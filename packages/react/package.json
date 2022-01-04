@@ -1,6 +1,6 @@
 {
   "name": "@finetwork/checkout-react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "source": "src/index.ts",
   "typings": "src/index.ts",
   "main": "src/index.ts",
@@ -28,7 +28,7 @@
     "npm-run-all": "^4.1.5"
   },
   "peerDependencies": {
-    "@finetwork/checkout": "0.1.0",
+    "@finetwork/checkout": "0.2.0",
     "react": "^17.0.2"
   }
 }
