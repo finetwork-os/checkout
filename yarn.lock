@@ -1537,6 +1537,15 @@
     resolve-pathname "^3.0.0"
     tslib "^2.2.0"
 
+"@finetwork/checkout-react@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@finetwork/checkout-react/-/checkout-react-0.1.0.tgz#e1cf56efb3234ffdd98b00ae580e58f4d14b7041"
+  integrity sha512-JquvySyIPhUvacuXxp7T7XiKvHZe3kG2ncFwmr2zLkK9yJPrm4jmUjYJrymdRcBk9nOcwtbkya4lDyXb/+tIPA==
+  dependencies:
+    "@finetwork/checkout" "0.1.0"
+    react "^17.0.2"
+    uuid "^8.3.2"
+
 "@finetwork/checkout@0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@finetwork/checkout/-/checkout-0.1.0.tgz#5ba453af6eecff2452c884d9a7b0eadc7083d630"
@@ -10327,9 +10336,9 @@ prepend-http@^2.0.0:
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
 prettier@^2.2.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
-  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.0.tgz#12f8f504c4d8ddb76475f441337542fa799207d4"
+  integrity sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==
 
 pretty-error@^3.0.4:
   version "3.0.4"
@@ -10748,7 +10757,7 @@ react-textarea-autosize@^8.3.2:
     use-composed-ref "^1.0.0"
     use-latest "^1.0.0"
 
-react@^17.0.1:
+react@^17.0.1, react@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
